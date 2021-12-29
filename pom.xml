@@ -12,7 +12,13 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-    <dependencies>
+    <dependencies>      
+          <!-- https://mvnrepository.com/artifact/checkstyle/checkstyle -->
+         <dependency>
+	   <groupId>checkstyle</groupId>
+		<artifactId>checkstyle</artifactId>
+		<version>5.0</version>
+	    </dependency>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
