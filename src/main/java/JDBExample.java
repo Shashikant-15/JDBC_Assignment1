@@ -3,13 +3,19 @@
         import org.slf4j.LoggerFactory;
         import java.sql.*;
         import java.util.logging.Logger;
-
-        // Created a Class as name of JDBExample
-        public class JDBExample {
-
-            // create a final static logger
+        
+        /**
+         * Represents a JDBC class to implement connection with application.
+         */
+        public class JDBExample {    
+         /**
+         * create a final static logger
+         */
             private static final Logger LOGGER = (Logger) LoggerFactory.getLogger(JDBExample.class);
-            // main method  within JDBExample Class called here
+             /**
+             *  main method called to implement JDBC.
+             * @param args arguments passes to method
+             */
             public static void main(String[] args) {
         try
         {
