@@ -138,6 +138,7 @@
                         break;
                     }
 
-                }catch(SQLException e){ System.out.println(e);}
+                }catch(SQLException e){
+                    System.out.println(e);}
             }
         }
