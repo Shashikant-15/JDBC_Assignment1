@@ -137,7 +137,7 @@
                                 result.getString(2)+"\n");
                         break;
                     }
+
                 }catch(SQLException e){ System.out.println(e);}
             }
-
         }
